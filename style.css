@@ -1,0 +1,108 @@
+header {
+  background-color: #333;
+}
+
+header img {
+  width: 125px;
+  display: block;
+  margin: auto;
+}
+
+header ul li {
+  display: inline-block;
+  color: #ccc !important;
+}
+
+ul {
+  padding: 0;
+}
+
+li{
+  color: #026e00 !important;
+  display: inline-block;
+  padding: 10px;
+  font-size: 12px;
+  border-right: solid #ccc 1px;
+}
+
+header ul {
+  text-align: center;
+  padding: 1em;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+main {
+  width: 100%;
+  max-width: 680px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 1em;
+  text-align: center;
+}
+
+main h1 {
+  font-weight: normal;
+  font-size: 25px;
+  padding-top: 5px;
+}
+
+small {
+  display: block;
+  font-size: 12px;
+}
+
+.blurb {
+  line-height: 30px;
+}
+
+.banner-text {
+  color: #333;
+  font-size: 130%;
+  background-color: #eaf5e9;
+  padding: 10px 15px;
+  border-radius: 2px;
+  margin-top: 1em;
+  font-weight: normal;
+}
+
+.download-block {
+  display: inline-block;
+  margin: .5em;
+}
+
+.btn {
+  background-color: #026e00;
+  color: white;
+  font-size: 30px;
+  padding: .2em .5em;
+  display: inline-block;
+}
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #404040;
+  color: white;
+  font-size: 12px;
+  text-align: left;
+}
+
+.bottext {
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.footer p {
+  margin-bottom: none !important;
+  text-align: left;
+  display: block;
+  margin-left: 250px;
+  font-weight: bold;
+}
